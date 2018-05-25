@@ -1,0 +1,106 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url('../fonts/SegoeUIBold.eot') format('eot'),
+    url("../fonts/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold.svg") format("svg"),
+    url('../fonts/SegoeUIBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Segoe UI Regular";
+    src: url("../fonts/SegoeUIRegular.woff") format("woff");
+}
+body{
+    background: url("../img/bgr.png");
+    text-align: center;
+}
+
+header {
+    background-color: #23232e;
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI Regular", Arial, sans-serif;
+    font-weight: 400;
+    padding-top: 75px;
+}
+header h1 {
+    font-family: "Segoe UI Bold", sans-serif;
+    color:  #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+header p {
+    display: inline-block;
+    width: 425px;
+}
+nav {
+    text-align: center;
+    margin-top: 185px;
+    padding-bottom: 45px;
+   }
+button {
+    display: inline-block;
+    color:  #ffffff;
+    background-color: #23232e;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+}
+section {
+    font-family: "Segoe UI Regular", Arial, sans-serif;
+    color:  #464b4f;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+}
+section div {
+    display: inline-block;
+    width: 65%;
+    margin: 0 auto;
+}
+h2 {
+    font-family: "Segoe UI Bold", sans-serif;
+    color:  #464b4f;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: "Segoe UI Bold", sans-serif;
+    color:  #464b4f;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer {
+    display: inline-block;
+    font-family: "Segoe UI Regular", Arial, sans-serif;
+    color:  #464b4f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+.all_footer {
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+}
+div.footer {
+   display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+}
+html {
+    margin: auto;
+    border: 2px solid aquamarine;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+body {
+
+    width: 50%;
+    background: azure;
+    border: 50%;
+
+}
+h1, h3 {
+    font-family: Georgia;
+    text-align: center;
+}
+div {
+    padding: 10px 20px;
+    border: 2px solid darkgrey;
+}
+footer {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    background: aquamarine;
+}

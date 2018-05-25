@@ -7,29 +7,29 @@
     text-align: left;
     box-sizing: border-box;
 }
-div.oll {
-    /*display: inline-block;
-    padding: 12%;*/
-    display: inline-block;
-    width: 88%;
-    height: 80%;
-    box-shadow: 0px 4px 68px rgba(0,0,0,0.1);
-    background-color: #ffffff;
-    padding: 8%;
 
-}
 body {
     width: 100%;
     min-height: 100%;
     background-color: #ffffff;
     text-align: center;
+    vertical-align: middle;
+    padding: 6%;
+}
+div.oll {
+    /*display: inline-block;
+    padding: 12%;*/
+    display: inline-block;
+    box-shadow: 0px 4px 68px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 4% 6% 6%;
 
 }
 footer {
     font-size: 24px;
     text-align: left;
     transform: scaleX(1.1041);
-}/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
 .big {
     font-size: 42px;
 }
@@ -47,6 +47,7 @@ section {
 p, div {
     display: inline-block;
 
+
 }
 section {margin: 0 auto}
 div img {
@@ -62,14 +63,14 @@ div div.one {
 }
 blockquote {
     font-size: 24px;
+    font-style: italic;
 }
 [type="button"] {
     color: #eaa258;
     background-color: white;
     margin-left: 4%;
     border: 1px solid #eaa258;
-    letter-spacing: 0.2em;
-    width: 220px;
+    width: 264px;
     height: 68px;
     text-align: center;
 }

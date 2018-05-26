@@ -41,15 +41,17 @@ header p {
     width: 425px;
 }
 nav {
+
     text-align: center;
     margin-top: 185px;
     padding-bottom: 45px;
    }
-button {
+a {
     display: inline-block;
     color:  #ffffff;
-    background-color: #23232e;
+    background: #23232e url("../img/key.svg") no-repeat 50% 50%;
     border-radius: 50%;
+    border: 1px solid white;
     width: 45px;
     height: 45px;
 

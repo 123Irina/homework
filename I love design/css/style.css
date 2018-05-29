@@ -85,7 +85,7 @@ h3 {
     text-align: center;
     text-transform: uppercase;
 }
-footer {
+main {
     display: inline-block;
     font-family: "Segoe UI Regular", Arial, sans-serif;
     color:  #464b4f;
@@ -96,7 +96,7 @@ footer {
 
 }
 .all_footer {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 70%;
     margin: 0 auto;
 }

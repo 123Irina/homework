@@ -1,0 +1,170 @@
+body {
+    background-color: #efefef;
+    padding: 3% 10%;
+}
+.slider {
+    padding: 3.3% 0;
+}
+.logo {
+    padding: 0;
+
+}
+ul:after {
+    clear: both;
+}
+h1 {
+    font-family: Roboto, sans-serif;
+    color:  #303030;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: left;
+    width: 45%;
+}
+h1, ul, li {
+    display: inline-block;
+}
+ul {
+    float: right;
+    text-align: right;
+    width: 35%;
+}
+li {
+    display: inline-block;
+    text-align: right;
+    padding: 5%;
+}
+li:hover, div p:last-child:hover {
+    color: red;
+}
+h3 {
+    display: inline-block;
+    font-family: Raleway, sans-serif;
+    color:  #303030;
+    font-size: 135px;
+    font-weight: 900;
+    line-height: 135px;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+.black {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    margin-right: 100px;
+}
+
+div.black p {
+    display: inline-block;
+    /*width: 41.2%;*/
+    font-family: Roboto, sans-serif;
+    color:  #303030;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: right;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+.black p:last-child {
+    letter-spacing: 1px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin: 0%;
+}
+.slider img {
+    display: inline-block;
+    vertical-align: top;
+}
+.slid {
+    width: 52%;
+    text-align: right;
+    height: 85px;
+    padding-bottom: 100px;
+}
+.slid span {
+    display: inline-block;
+    margin-top: 65px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+.slid span:first-child {
+    border: 1px solid red;
+    background-color: red;
+}
+.beats {
+    background-image: url("../img/Rectangle 3 copy 2.png");
+    /*flex-basis: 30%;*/
+    height: 48%;
+}
+.speaker {
+    background-image: url("../img/Rectangle 3.png");
+    /*flex-basis: 65%;*/
+    /*height: 48%;*/
+}
+
+.gallery img {
+    background-color: #ededed;
+    height: 48%;
+}
+section {
+    background-color: white;
+    padding: 20px 70px 70px 70px;
+    text-align: center;
+}
+section h2 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 150px;
+    color: rgb(48,48,48);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+section p {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 810px;
+    margin-top: 75px;
+}
+img {
+    box-sizing: border-box;
+    height: 35%;
+}
+footer {
+    text-align: center;
+}
+[type="email"] {
+    width: 500px;
+    height: 70px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgb(151,151,151);
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    background: url("../img/Rectangle 5.png") no-repeat;
+    padding-left: 6%;
+    border: 0;
+}
+[type="submit"] {
+    width: 208px;
+    height: 70px;
+    background: url("../img/btn.png") no-repeat 50% 50%;
+    border: 0;
+}

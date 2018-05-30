@@ -1,0 +1,41 @@
+body {
+    padding-left: 10%;
+    padding-top: 15px;
+
+}
+h1 {
+    font-family: Georgia, Serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: red;
+}
+.bord {
+    display: inline-block;
+    margin: 0 auto;
+    border: 10px solid wheat;
+    font-size: 0;
+}
+.row div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 1px solid black;
+   }
+.row .black {
+    background: black
+}
+.row div .red, .row div .grey {
+    float: left;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.row div .grey {
+    background: darkslategrey;
+    }
+.row div .red {
+    background: red;
+}

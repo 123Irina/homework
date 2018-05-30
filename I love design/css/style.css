@@ -73,9 +73,11 @@ h2 {
     font-family: "Segoe UI Bold", sans-serif;
     color:  #464b4f;
     font-size: 80px;
+    line-height: 80px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 0;
 }
 h3 {
     font-family: "Segoe UI Bold", sans-serif;
@@ -96,9 +98,8 @@ main {
 
 }
 .all_footer {
-    /*display: inline-block;*/
     width: 70%;
-    margin: 0 auto;
+    margin: 66px auto;
 }
 div.footer {
    display: inline-block;

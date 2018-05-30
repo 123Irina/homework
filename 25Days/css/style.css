@@ -39,28 +39,16 @@ h1 {
     font-size: 42px;
     letter-spacing: 0px;
     color: rgb(23,23,23);
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Playfair Display", serif;
 }
 section {
-    margin-left: 10px;
+    margin: 0 auto
+
 }
 p, div {
     display: inline-block;
+}
 
-
-}
-section {margin: 0 auto}
-div img {
-    display: inline-block;
-    height: 79px;
-    width: 6%;
-    margin: 0;
-}
-div.one {
-    display: inline-block;
-    width: 93%;
-    margin: 0;
-}
 blockquote {
     font-size: 24px;
     font-style: italic;
@@ -75,5 +63,10 @@ blockquote {
     text-align: center;
 }
 .one:first-letter {
-    font-size: 100px;
+    font-size: 110px;
+    font-weight: 400;
+    float: left;
+    line-height: 100px;
+    vertical-align: top;
+    margin-right: 20px;
 }

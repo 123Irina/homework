@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Product Man</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="../25Days/css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,900|Roboto:900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
@@ -35,19 +35,27 @@
 </header>
 <section>
     <h2>Featured Product</h2>
+    <img src="img/underline.png">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
-    <div class="flex">
-        <img src="img/speaker-pill-white-standard-thrqrtleft.png" class="speaker">
-        <img src="img/beats-by-dre-studio-red-highdefinition-headphones.png" class="beats">
-        <img src="img/tumblr_nko8p7po0T1qddxjwo3_1280.png" class="tumblrs">
-        <img src="img/Casual-Shoes-For-Men-2.png">
-        <img src="img/Layer%201.png">
-
+    <div class="flex row1">
+        <div class="big_img"><img src="img/speaker-pill-white-standard-thrqrtleft.jpg">
+            <img src="img/Rectangle_big%204.jpg" class="img_big_hover">
+            </div>
+        <div class="img"><img src="img/beats-by-dre-studio-red-highdefinition-headphones.jpg">
+            <img src="img/Rectangle%204.png" class="img_hover"></div>
+    </div>
+    <div class="flex row2">
+        <div class="img"><img src="img/Layer%201.jpg">
+            <img src="img/Rectangle%204.png" class="img_hover"></div>
+        <div class="img"><img src="img/Casual-Shoes-For-Men-2.jpg">
+            <img src="img/Rectangle%204.png" class="img_hover"></div>
+        <div class="img"><img src="img/tumblr_nko8p7po0T1qddxjwo3_1280.jpg" class="tumblrs">
+            <img src="img/Rectangle%204.png" class="img_hover"></div>
     </div>
 </section>
-<footer>
+<div class="mail">
     <h2>PRODUCTMAN NEWS</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,6 +64,15 @@
         <input type="email" name="mail" value="Enter your email address">
         <input type="submit" name="mail" value=" ">
     </form>
+</div>
+<footer>
+    <ul>
+        <li><a href="https://facebook.com" class="fb"></a></li>
+        <li><a href="https://twitter.com" class="tw"></a></li>
+        <li><a href="https://www.youtube.com" class="yt"></a></li>
+        <li><a href="https://all.me/ru" class="me"></a></li>
+    </ul>
+    <p>© Copyright Your Company ltd 2016. All Rights Reserved.</p>
 </footer>
 </body>
 </html>

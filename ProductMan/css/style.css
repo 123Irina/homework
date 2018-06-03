@@ -24,7 +24,7 @@ h1 {
 h1, ul, li {
     display: inline-block;
 }
-ul {
+ul.navigator {
     float: right;
     text-align: right;
     width: 35%;
@@ -34,7 +34,7 @@ li {
     text-align: right;
     padding: 5%;
 }
-li:hover, div p:last-child:hover {
+li:hover {
     color: red;
 }
 h3 {
@@ -73,6 +73,11 @@ div.black p {
     font-family: Roboto, sans-serif;
     font-weight: bold;
     margin: 0%;
+    color: red;
+}
+.slid span:hover {
+    background-color: red;
+    border: 1px solid red;
 }
 .slider img {
     display: inline-block;
@@ -94,58 +99,62 @@ div.black p {
     height: 15px;
     margin-left: 15px;
 }
-.slid span:first-child {
-    border: 1px solid red;
-    background-color: red;
-}
-.beats {
-    background-image: url("../img/Rectangle 3 copy 2.png");
-    /*flex-basis: 30%;*/
-    height: 48%;
-}
-.speaker {
-    background-image: url("../img/Rectangle 3.png");
-    /*flex-basis: 65%;*/
-    /*height: 48%;*/
-}
-
-.gallery img {
-    background-color: #ededed;
-    height: 48%;
-}
 section {
     background-color: white;
-    padding: 20px 70px 70px 70px;
+    padding: 20px 5% 5% 5%;
     text-align: center;
+
 }
 section h2 {
     font-size: 48px;
     letter-spacing: 1px;
-    line-height: 150px;
+
     color: rgb(48,48,48);
     font-family: Raleway, sans-serif;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 section p {
-    display: inline-block;
+
     width: 50%;
     text-align: center;
-    margin: 0;
+    margin: 15px auto;
 }
 .flex {
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    height: 810px;
-    margin-top: 75px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: start;
+}
+.img {
+    width: 31%;
+}
+div.big_img {
+    width: 65.5%;
 }
 img {
-    box-sizing: border-box;
-    height: 35%;
+    max-width: 100%;
 }
-footer {
+.flex div {
+
+    position: relative;
+}
+.img_hover, .img_big_hover {
+    display: none;
+}
+.img_big_hover {
+    border-radius: 1%;
+}
+
+.flex div:hover img, div.big_img:hover img{
+    display: none;
+}
+.flex div:hover img.img_hover, div.big_img:hover img.img_big_hover{
+    display: block;
+}
+
+div.mail {
     text-align: center;
 }
 [type="email"] {
@@ -167,4 +176,43 @@ footer {
     height: 70px;
     background: url("../img/btn.png") no-repeat 50% 50%;
     border: 0;
+}
+footer {
+    text-align: center;
+    padding: 100px 0 30px;
+}
+footer ul {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer ul li {
+    padding: 10px;
+}
+footer ul li a {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.fb {
+    background-image: url("../img/fb.png");
+}
+.me {
+    background-image: url("../img/me.png");
+}
+.tw {
+    background-image: url("../img/tw.png");
+}
+.yt {
+    background-image: url("../img/yt.png");
+}
+footer p {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: rgb(151,151,151);
+    font-family: Raleway, Sans-Serif;
+    text-align: center;
 }

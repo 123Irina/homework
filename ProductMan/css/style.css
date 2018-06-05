@@ -27,7 +27,13 @@ h1, ul, li {
 ul.navigator {
     float: right;
     text-align: right;
-    width: 35%;
+    width: 40%;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    color: rgb(48,48,48);
 }
 li {
     display: inline-block;
@@ -213,6 +219,6 @@ footer p {
     letter-spacing: 0;
     line-height: 24px;
     color: rgb(151,151,151);
-    font-family: Raleway, Sans-Serif;
+    font-family: Raleway, sans-serif;
     text-align: center;
 }

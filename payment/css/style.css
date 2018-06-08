@@ -1,0 +1,9 @@
+
+body div {
+    background: #515658 url("../img/bg.png") no-repeat;
+    text-align: center;
+}
+form {
+    width: 42%;
+    max-width: 336px;
+}

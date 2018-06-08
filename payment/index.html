@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <title>Payment</title>
     <link rel="icon" href="img/favicon.ico"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <form>
-            <h1>Harold Finch</h1>
-            <p>YOUR TOTAL</p>
-            <label>Credit card number
-                <input type="text" name="card_number">
-            </label>
-            <label>
-                Expiration date
-                <input type="text" name="Expiration_date">
-            </label>
-        </form>    </div>
+    <div class="container">
+        <form method="get">
+            <div class="head">
+                <div class="h1">Harold Finch
+                    <div class="text">YOUR TOTAL</div>
+                </div>
+                <div class="sum">$88</div>
+            </div>
+            <div class="inputs">
+                <label>Credit card number
+                    <input type="text" name="card_number" placeholder="4321">
+                </label>
+                <label>
+                    Expiration date
+                    <div class="select"><select name="month">
+                        <option>
+                            Month
+                        </option>
+                    </select>
+                    <select name="year">
+                        <option>Year</option>
+                    </select>
+                    </div>
+                </label>
+                <label>
+                    <div>CVV</div>
+                    <input name="CVV">
+                    <span class="cvv">3 or 4 digits - <a href="#">view example</a></span>
+                </label>
+                <div class="line"></div>
+                <input type="submit" value="Pay">
+                <a href="#">Cancel order</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

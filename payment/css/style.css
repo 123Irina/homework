@@ -1,9 +1,118 @@
-
-body div {
-    background: #515658 url("../img/bg.png") no-repeat;
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #2e3336;
+}
+.container {
+    background: url("../img/bg.jpg") no-repeat 50%;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 35px;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
 }
 form {
     width: 42%;
     max-width: 336px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+}
+form .head, .inputs {
+    text-align: left;
+    padding: 25px;
+}
+form .head {
+    background-color: #efe4aa;
+    display: flex;
+    justify-content: space-between;
+}
+form .inputs, {
+    background-color: white;
+    color: rgb(158,171,173);
+}
+.head > div {
+    display: inline-block;
+    vertical-align: top;
+}
+div .sum {
+    display: inline-block;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: rgb(99,117,112);
+    margin-top: 0;
+}
+.h1 {
+    font-size: 14px;
+    color: rgb(110,127,123);
+    font-weight: bold;
+}
+.text {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    color: rgb(166,162,141);
+}
+/*block input*/
+label, a {
+    display: block;
+    margin-top: 25px;
+    font-size: 13px;
+    color: rgb(158,171,173);
+}
+.inputs:last-child a {
+    text-align: center;
+}
+span a {
+    display: inline;
+}
+input, select {
+    margin-top: 5px;
+    height: 42px;
+    font-size: 13px;
+    color: rgb(114,127,130);
+    font-weight: bolder;
+    border: 2px solid #bac8cb;
+    padding-left: 10px;
+}
+input:hover, select:hover {
+    border: 2px solid #81d3e7;
+}
+
+span.cvv, span a {
+    font-size: 12px;
+}
+[name="card_number"], [type="submit"] {
+    width: 100%;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+}
+[name="month"] {
+    width: 60%;
+}
+[name="year"] {
+    width: 33%;
+}
+[name="CVV"] {
+    width: 33%;
+    margin-right: 5px;
+}
+[type="submit"] {
+    font-size: 20px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    height: 48px;
+    background-color: #24b86a;
+    border: none;
+}
+div.line {
+    height: 1px;
+    background-color: #edeff1;
+    margin: 25px 0;
 }

@@ -21,14 +21,25 @@ span {
     color: rgb(2,153,91);
     font-weight: bold;
     text-align: center;
-}
+    }
 .flex {
     display: flex;
     background-color: #fdde7e;
-    padding: 80px 30px;
+    padding: 50px 30px;
     justify-content: space-between;
+    align-items: center;
+    min-height: 600px;
 }
 .flex > div {
     width: 30%;
     background-color: white;
+    min-height: 440px;
+    padding: 3.5%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.price:hover {
+    min-height: 500px;
 }

@@ -14,6 +14,7 @@
 }
 h2 {
     font-size: 56px;
+    margin: 0;
 }
 span {
     font-size: 70px;
@@ -22,6 +23,12 @@ span {
     font-weight: bold;
     text-align: center;
     }
+p {
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 160px;
+}
 .flex {
     display: flex;
     background-color: #fdde7e;
@@ -33,13 +40,14 @@ span {
 .flex > div {
     width: 30%;
     background-color: white;
-    min-height: 440px;
+    height: 440px;
     padding: 3.5%;
 }
 img {
     display: block;
     margin: 0 auto;
+    margin-bottom: 10%;
 }
 .price:hover {
-    min-height: 500px;
+    height: 500px;
 }

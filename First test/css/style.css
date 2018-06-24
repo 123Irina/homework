@@ -13,6 +13,7 @@ body {
 h2 {
     font-size: 36px;
     font-family: Aleo, serif;
+    font-weight: normal;
 }
 button {
     background: url("../img/bg_button.png");
@@ -106,7 +107,8 @@ li a {
 .second .container {
     display: flex;
     justify-content: space-between;
-    padding: 115px 18.5%;
+    padding: 115px 0;
+    max-width: 1110px;
 }
 .second .container > div {
     width: 50%;
@@ -205,4 +207,45 @@ div.row2 img {
 .villa div p, .sea div p {
     margin-bottom: 10%;
 }
+.Testimonial {
+    background: url("../img/Testimonial_bg.jpg");
+    text-align: center;
+    min-height: 735px;
+    padding-top: 120px;
+}
+.Testimonial h2 {
+    margin-bottom: 95px;
+}
+.Testimonial h3 {
+    font-size: 20px;
+    color: rgb(254,254,254);
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.testi-container {
+    background-color: #333333;
+    max-width: 1110px;
+    display: flex;
+}
+.testi-container div {
+    margin: 0;
 
+}
+.testi-container .image {
+    width: 40%;
+    background: #333333 url("../img/testimonial_img.jpg") no-repeat center center;
+}
+
+.testi-container .acite {
+    width: 60%;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    text-align: left;
+    padding: 3% 5%;
+}
+i {
+    font-size: 36px;
+    color: rgb(84,116,253);
+}

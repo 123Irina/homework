@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(255,255,255);
+}
+
+body {
+    padding: 20px;
+    max-width: 1800px;
+}
+h2 {
+    font-size: 36px;
+    font-family: Aleo, serif;
+}
+button {
+    background: url("../img/bg_button.png");
+    height: 60px;
+    width: 225px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Aleo, serif;
+    text-transform: uppercase;
+}
+.clearfix:after {
+    Content: '';
+    Display: table;
+    Clear: both;
+}
+header {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    background: url("../img/first_bg.jpg");
+}
+.first_bg {
+    padding-top: 20%;
+    min-height: 740px;
+}
+h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+header p {
+    font-size: 22px;
+    letter-spacing: 7px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.first_bg label {
+    display: flex;
+    width: 37%;
+    height: 60px;
+}
+.first_bg label input{
+    width: 77%;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    border: none;
+    }
+button.search {
+    background-color: #5474fd;
+    line-height: 56px;
+    border: 2px solid white;
+    width: 23%;
+}
+nav {
+    background-color: #5474fd;
+    text-transform: uppercase;
+    height: 80px;
+    margin-bottom: 0;
+}
+nav ul {
+    List-style: none;
+    display: inline-block;
+    width: 48%;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Aleo, serif;
+    padding: 0 10px;
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+}
+.logo {
+    display: inline-block;
+    width: 48%;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.second {
+    background: #333333 url("../img/second_bg.jpg") no-repeat;
+}
+.second .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 115px 18.5%;
+}
+.second .container > div {
+    width: 50%;
+}
+.item_text {
+    margin-right: 30px;
+    padding-top: 8%;
+}
+.item_text h2 {
+    margin-bottom: 55px;
+}
+.item_text p {
+    padding-bottom: 35px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: "Josefin Sans", sans-serif;
+}
+.item_img img {
+    display: block;
+    width: 65%;
+}
+div.row1 {
+    margin-bottom: 5px;
+}
+div.row1 img {
+    margin-left: 13%;
+}
+div.row2 img {
+    margin-right: 0;
+}
+.how_it_work {
+    background: #333333 url("../img/how_it_work.png");
+}

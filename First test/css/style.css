@@ -30,6 +30,15 @@ button {
     Display: table;
     Clear: both;
 }
+.container {
+    width: 95%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.container > div {
+    width: 48.5%;
+    margin: 0;
+}
 header {
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
@@ -47,26 +56,43 @@ h1 {
     text-align: center;
     margin: 0 auto;
 }
-header p {
+a {
+    text-decoration: none;
+}
+.first_bg > p {
     font-size: 22px;
     letter-spacing: 7px;
     line-height: 26px;
     text-align: center;
     margin-bottom: 50px;
 }
-.first_bg label {
-    display: flex;
-    width: 37%;
-    height: 60px;
+.scroll {
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    text-align: center;
 }
-.first_bg label input{
+.scroll i {
+    display: block;
+    font-size: 28px;
+}
+.first_bg .search {
+    display: flex;
+    max-width: 650px;
+    height: 60px;
+    margin-bottom: 120px;
+}
+.first_bg div input{
     width: 77%;
     margin: 0;
-    padding-bottom: 20px;
     text-align: center;
     border: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(153,153,153);
     }
-button.search {
+.but_search {
     background-color: #5474fd;
     line-height: 56px;
     border: 2px solid white;
@@ -108,13 +134,9 @@ li a {
     display: flex;
     justify-content: space-between;
     padding: 115px 0;
-    max-width: 1110px;
 }
-.second .container > div {
-    width: 50%;
-}
+
 .item_text {
-    margin-right: 30px;
     padding-top: 8%;
 }
 .item_text h2 {
@@ -169,20 +191,19 @@ div.row2 img {
 .villa {
     height: 700px;
     background-image: url("../img/thrird_bg.jpg");
-    padding-left: 18.5%;
+
     padding-top: 18.5%;
 }
 .sea {
     height: 700px;
     background-image: url("../img/fourd_bg.jpg");
-    padding-right: 18.5%;
+
     padding-top: 18.5%;
 }
-.sea div {
+.sea .container div {
     float: right;
 }
-.villa div, .sea div {
-    width: 30%;
+.villa .container div, .sea .container div {
     min-height: 370px;
     background-color: rgba(42,39,43,0.7);
     margin: 0;
@@ -223,21 +244,16 @@ div.row2 img {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.testi-container {
+.Testimonial .container {
     background-color: #333333;
-    max-width: 1110px;
     display: flex;
 }
-.testi-container div {
-    margin: 0;
-
-}
-.testi-container .image {
+.container .image {
     width: 40%;
     background: #333333 url("../img/testimonial_img.jpg") no-repeat center center;
 }
 
-.testi-container .acite {
+.container .acite {
     width: 60%;
     font-size: 16px;
     line-height: 26px;
@@ -245,13 +261,16 @@ div.row2 img {
     text-align: left;
     padding: 3% 5%;
 }
-i {
+.acite i {
     font-size: 36px;
+    vertical-align: super;
     color: rgb(84,116,253);
 }
 footer {
     background-color: #232323;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
 footer .logo h2 {
     font-size: 24px;
@@ -260,12 +279,33 @@ footer .logo h2 {
     color: rgb(255,255,255);
     text-transform: uppercase;
     font-weight: bold;
-
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
 }
 footer .logo p {
     font-size: 16px;
     letter-spacing: 2px;
     line-height: 26px;
     color: rgb(255,255,255);
-    
+    margin-bottom: 30px;
+}
+footer ul {
+    margin: 0 auto;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+footer ul li i {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    text-align: center;
+}
+footer ul li i:hover {
+    color: rgb(84,116,253);
 }

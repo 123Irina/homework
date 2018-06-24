@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0;
     color: rgb(255,255,255);
+    font-family: "Josefin Sans", sans-serif;
 }
 
 body {
@@ -16,7 +17,7 @@ h2 {
 button {
     background: url("../img/bg_button.png");
     height: 60px;
-    width: 225px;
+    width: 42%;
     border: none;
     font-size: 16px;
     letter-spacing: 1px;
@@ -139,5 +140,69 @@ div.row2 img {
     margin-right: 0;
 }
 .how_it_work {
-    background: #333333 url("../img/how_it_work.png");
+    background: #333333;
+
 }
+.how_it_work ul {
+    background: #333333 url("../img/how_it_work.png") no-repeat center 0%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 5%;
+}
+.how_it_work ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 50%;
+}
+.how_it_work ul li p {
+    font-size: 36px;
+    color: rgb(232,232,232);
+    font-family: Aleo, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.villa {
+    height: 700px;
+    background-image: url("../img/thrird_bg.jpg");
+    padding-left: 18.5%;
+    padding-top: 18.5%;
+}
+.sea {
+    height: 700px;
+    background-image: url("../img/fourd_bg.jpg");
+    padding-right: 18.5%;
+    padding-top: 18.5%;
+}
+.sea div {
+    float: right;
+}
+.villa div, .sea div {
+    width: 30%;
+    min-height: 370px;
+    background-color: rgba(42,39,43,0.7);
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    padding: 45px 35px 45px 25px;
+}
+.villa div h4, .sea div h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.villa div h3, .sea div h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(254,254,254);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.villa div p, .sea div p {
+    margin-bottom: 10%;
+}
+

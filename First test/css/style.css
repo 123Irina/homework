@@ -249,3 +249,23 @@ i {
     font-size: 36px;
     color: rgb(84,116,253);
 }
+footer {
+    background-color: #232323;
+    text-align: center;
+}
+footer .logo h2 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+footer .logo p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    
+}

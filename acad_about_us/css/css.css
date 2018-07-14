@@ -5,6 +5,10 @@
     color: #60606e;
 }
 
+h2, h1, h3 {
+    margin: 0;
+}
+
 div.container {
     max-width: 1140px;
     margin: 0 auto;
@@ -120,7 +124,7 @@ section h4 {
     font-weight: bold;
 }
 
-.footer div:first-child button {
+.footer div:first-child > button {
     width: 165px;
     line-height: 49px;
     font-size: 14px;
@@ -130,7 +134,7 @@ section h4 {
     background-color: white;
 }
 
-.footer div:first-child h2 {
+.footer div:first-child > h2 {
     font-size: 30px;
     line-height: 48px;
     color: white;
@@ -139,9 +143,10 @@ section h4 {
 
 .footer div:last-child {
     background-color: white;
+    padding: 20px;
 }
 
-.footer div:last-child button {
+.footer div:last-child form button {
     background-color: #7beec7;
     color: white;
     width: 135px;
@@ -167,7 +172,7 @@ section h4 {
     font-family: "Open Sans", sans-serif;
 }
 
-.footer div:last-child h2 {
+.footer div:last-child > h2 {
     font-size: 24px;
     line-height: 36px;
     color: #60606e;

@@ -1,6 +1,6 @@
 .idea
 /maket.psd
 /25_days.psd
-.node_modules
-
+node_modules
+npn-debug.log
 

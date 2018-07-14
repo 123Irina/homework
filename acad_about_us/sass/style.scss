@@ -6,6 +6,11 @@
 div.container {
   max-width: 1140px;
   margin: 0 auto;
+  text-align: center;
+  .one_block {
+    margin: 0 auto;
+    max-width: 750px;
+  }
 }
 .ba-width-1-2{
   width: 50%;
@@ -18,9 +23,16 @@ div.container {
 }
 .ba-row {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  img {
+    display: block;
+  }
 }
 header {
   background: #5f5f6d url("../img/bg_block1.png") no-repeat;
+  min-height: 500px;
+  text-align: center;
   nav {
   display: flex;
     justify-content: space-between;
@@ -71,5 +83,67 @@ section {
     font-size: 18px;
     line-height: 48px;
     font-weight: bold;
+  }
+}
+.footer {
+  background-color: #7beec7;
+  padding: 50px 0;
+  div {
+    text-align: left;
+    &:first-child {
+      background-color: #7beec7;
+      color: white;
+      font-size: 30px;
+      line-height: 48px;
+      font-weight: bold;
+      button {
+        width: 165px;
+        line-height: 49px;
+        font-size: 14px;
+        color: rgb(123, 238, 199);
+        font-weight: bold;
+        text-align: center;
+        background-color: white;
+      }
+      h2 {
+        font-size: 30px;
+        line-height: 48px;
+        color: rgb(255,255,255);
+        font-weight: bold;
+      }
+    }
+     &:last-child {
+       background-color: white;
+       button {
+         background-color: #7beec7;
+         color: white;
+         width: 135px;
+         line-height: 50px;
+         font-size: 14px;
+         font-weight: bold;
+         text-align: center;
+       }
+       input {
+         width: 236px;
+         font-size: 12px;
+         line-height: 50px;
+         color: rgb(205, 205, 205);
+         font-weight: bold;
+         background-color: white;
+       }
+       p {
+         font-size: 16px;
+         line-height: 24px;
+         color: rgb(153, 153, 153);
+         font-family: "Open Sans", sans-serif;
+       }
+       h2 {
+         font-size: 24px;
+         line-height: 36px;
+         color: rgb(96, 96, 110);
+         font-weight: bold;
+         background-color: white;
+       }
+     }
   }
 }

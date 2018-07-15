@@ -3,6 +3,10 @@
 * {
     font-family: Montserrat, sans-serif;
     color: #60606e;
+    box-sizing: border-box;
+}
+button {
+    border: none;
 }
 
 .benefits-name {
@@ -35,8 +39,13 @@ div.container {
 }
 
 div.container .one_block {
-    margin: 0 auto;
+    margin: 150px auto 100px;
     max-width: 750px;
+}
+
+section h2 {
+    background: url("../img/line_h2.jpg") no-repeat 0 110%;
+    display: inline-block;
 }
 
 .ba-width-1-2 {
@@ -55,7 +64,6 @@ div.container .one_block {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    padding-right: -30px;
 }
 
 .ba-row > img {
@@ -73,6 +81,10 @@ div.container .one_block {
 
 .ba-row div:last-child {
     margin-right: 0;
+}
+
+section {
+    margin-top: 150px;
 }
 
 header {
@@ -169,6 +181,7 @@ section h4 {
 .footer div .white {
     background-color: white;
     padding: 20px;
+    max-width: 555px;
 }
 
 .footer div .white form button {
@@ -187,7 +200,8 @@ section h4 {
     line-height: 50px;
     color: #cdcdcd;
     font-weight: bold;
-    background-color: white;
+    border: 1px solid #cdcdcd;
+    margin: 0;
 }
 
 .footer div .white p {
@@ -203,5 +217,4 @@ section h4 {
     line-height: 36px;
     color: #60606e;
     font-weight: bold;
-    background-color: white;
 }

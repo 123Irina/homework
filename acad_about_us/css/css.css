@@ -5,8 +5,27 @@
     color: #60606e;
 }
 
-h2, h1, h3 {
-    margin: 0;
+.benefits-name {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.benefits-name h4 {
+    margin-left: 20px;
+}
+
+h2, h3, p {
+    margin: 0 auto;
+}
+
+h2, h3 {
+    margin-bottom: 30px;
+}
+
+button, input, h3, h4, h2, h1 {
+    text-transform: uppercase;
 }
 
 div.container {
@@ -36,16 +55,31 @@ div.container .one_block {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-right: -30px;
 }
 
-.ba-row img {
+.ba-row > img {
     display: block;
+}
+
+.ba-row div {
+    margin-right: 30px;
+    text-align: left;
+}
+
+.ba-row div h4 {
+    display: inline;
+}
+
+.ba-row div:last-child {
+    margin-right: 0;
 }
 
 header {
     background: #5f5f6d url("../img/bg_block1.png") no-repeat;
     min-height: 500px;
     text-align: center;
+    padding-top: 40px;
 }
 
 header nav {
@@ -58,16 +92,12 @@ header nav h1, header nav img {
 }
 
 header nav h1 {
-    width: 68px;
-    height: 14px;
     font-size: 18px;
-    line-height: 48px;
     font-weight: bold;
+    margin: 0;
 }
 
 header p {
-    width: 359px;
-    height: 11px;
     font-size: 14px;
     line-height: 48px;
     font-weight: bold;
@@ -75,8 +105,6 @@ header p {
 }
 
 header h2 {
-    width: 359px;
-    height: 30px;
     font-size: 36px;
     line-height: 48px;
     font-weight: bold;
@@ -85,13 +113,10 @@ header h2 {
 
 section h2 {
     font-size: 30px;
-    line-height: 48px;
     font-weight: bold;
 }
 
 section h3 {
-    width: 177px;
-    height: 22px;
     font-size: 14px;
     line-height: 24px;
     color: #60606e;
@@ -100,10 +125,8 @@ section h3 {
 }
 
 section h4 {
-    width: 198px;
-    height: 19px;
     font-size: 18px;
-    line-height: 48px;
+    line-height: 41px;
     font-weight: bold;
 }
 
@@ -116,15 +139,17 @@ section h4 {
     text-align: left;
 }
 
-.footer div:first-child {
+.footer div .green {
+    padding: 0;
     background-color: #7beec7;
     color: white;
     font-size: 30px;
     line-height: 48px;
     font-weight: bold;
+    margin-right: 30px;
 }
 
-.footer div:first-child > button {
+.footer div .green > button {
     width: 165px;
     line-height: 49px;
     font-size: 14px;
@@ -134,19 +159,19 @@ section h4 {
     background-color: white;
 }
 
-.footer div:first-child > h2 {
+.footer div .green > h2 {
     font-size: 30px;
-    line-height: 48px;
     color: white;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.footer div:last-child {
+.footer div .white {
     background-color: white;
     padding: 20px;
 }
 
-.footer div:last-child form button {
+.footer div .white form button {
     background-color: #7beec7;
     color: white;
     width: 135px;
@@ -156,7 +181,7 @@ section h4 {
     text-align: center;
 }
 
-.footer div:last-child input {
+.footer div .white input {
     width: 236px;
     font-size: 12px;
     line-height: 50px;
@@ -165,14 +190,15 @@ section h4 {
     background-color: white;
 }
 
-.footer div:last-child p {
+.footer div .white p {
     font-size: 16px;
     line-height: 24px;
     color: #999999;
     font-family: "Open Sans", sans-serif;
+    margin-bottom: 30px;
 }
 
-.footer div:last-child > h2 {
+.footer div .white > h2 {
     font-size: 24px;
     line-height: 36px;
     color: #60606e;

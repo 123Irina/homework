@@ -161,10 +161,10 @@ img {
     border-radius: 1%;
 }
 
-.flex div:hover img, div.big_img:hover img{
+.flex div:hover images, div.big_img:hover images{
     display: none;
 }
-.flex div:hover img.img_hover, div.big_img:hover img.img_big_hover{
+.flex div:hover images.img_hover, div.big_img:hover images.img_big_hover{
     display: block;
 }*/
 

@@ -1,4 +1,4 @@
-@import url(../css/normalize.css);
+@import url(../crs/normalize.css);
 
 * {
     font-family: Montserrat, sans-serif;
@@ -44,7 +44,7 @@ div.container .one_block {
 }
 
 section h2 {
-    background: url("../img/line_h2.jpg") no-repeat 0 110%;
+    background: url("../images/line_h2.jpg") no-repeat 0 110%;
     display: inline-block;
 }
 
@@ -88,7 +88,7 @@ section {
 }
 
 header {
-    background: #5f5f6d url("../img/bg_block1.png") no-repeat;
+    background: #5f5f6d url("../images/bg_block1.png") no-repeat;
     min-height: 500px;
     text-align: center;
     padding-top: 40px;
@@ -97,6 +97,7 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 
 header nav h1, header nav img {
